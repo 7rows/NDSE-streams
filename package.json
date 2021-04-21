@@ -1,0 +1,26 @@
+{
+  "name": "ndse-streams",
+  "version": "1.0.0",
+  "description": "004-streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7rows/NDSE-streams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7rows/NDSE-streams/issues"
+  },
+  "homepage": "https://github.com/7rows/NDSE-streams#readme",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  },
+  "bin": {
+    "srart-game": './game.js',
+    "reader": './logReader.js'
+  }
+}
